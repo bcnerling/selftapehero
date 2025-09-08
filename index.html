@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SelfTapeHero</title>
+<link rel="icon" href="logo.png" type="image/png" />
+<style>
+  body {
+    background-color: #004f9e; /* Blue theme */
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0; padding: 0;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 700px;
+    padding: 2rem;
+    background: #005bb5;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    overflow-y: auto;
+    max-height: 90vh;
+    text-align: center;
+  }
+  img.logo {
+    max-height: 80px;
+    margin-bottom: 1rem;
+  }
+  h1, h2 {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  p {
+    line-height: 1.5;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  .store-btn img {
+    height: 60px;
+  }
+  footer {
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    color: #ddd;
+  }
+  .social-icon { display: inline-block; margin-top: 0.5rem; }
+  nav {
+    margin-top: 2rem;
+  }
+  nav a {
+    color: #aad4ff;
+    text-decoration: underline;
+    margin: 0 0.5rem;
+    font-size: 0.95rem;
+  }
+  nav a:hover,
+  nav a:focus {
+    color: #fff;
+    outline: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <img src="logo.png" alt="SelfTapeHero logo" class="logo" aria-label="SelfTapeHero logo" />
+    <h1>SelfTapeHero</h1>
+    <p><strong>SelfTapeHero</strong> is available exclusively for <strong>Mac OS</strong> via the Mac App Store.</p>
+
+    <div class="price">
+      $5.99 USD / month &nbsp;|&nbsp; $49.99 USD / year<br>
+      $7.99 CAD / month &nbsp;|&nbsp; $66.99 CAD / year<br>
+      <span style="font-size:1rem; font-weight:normal;">
+        Subscriptions are billed securely through the Mac App Store. 
+        Prices may vary by region.
+      </span>
+    </div>
+
+    <h2>All in One Automation</h2>
+    <p>SelfTapeHero does it all for you. It will build your title card, add it to your self tape along with professional fades and internal compression before your final video is generated.</p>
+
+    <h2>User Friendly Interface</h2>
+    <p>Easy to follow layout with a few clicks makes SelfTapeHero so easy to work with, giving you fast reliable results.</p>
+
+    <h2>Personalized User Experience</h2>
+    <p>Once you've shot your self tape and are happy with your slate and audition, SelfTapeHero handles all your post production work giving you a polished self tape ready for submission. Simply fill in the four text boxes, add your Slate and Audition videos then Generate your video separately or combined.</p>
+
+    <!-- Vimeo Video Embed -->
+    <div class="button-row" role="region" aria-label="SelfTapeHero Demo Video">
+      <iframe src="https://player.vimeo.com/video/1116620203" 
+              width="640" height="360" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen 
+              title="SelfTapeHero Demo Video">
+      </iframe>
+    </div>
+
+    <div class="button-row" role="navigation" aria-label="App Store link">
+      <a
+        class="store-btn"
+        href="#"
+        aria-label="Coming soon on the Mac App Store"
+      >
+        <img src="coming-soon-badge.png" alt="Coming Soon on the Mac App Store" />
+      </a>
+    </div>
+
+    <nav aria-label="Site policies">
+      <a href="terms.html" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a> |
+      <a href="refund.html" target="_blank" rel="noopener noreferrer">Refund Policy</a> |
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+    </nav>
+
+    <footer>
+      <p>© 2025 SelfTapeHero. All rights reserved.</p>
+      <p>Company: Barry Nerling (Sole Proprietor)</p>
+      <!-- Facebook Link -->
+      <a href="https://www.facebook.com/selftapehero/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow SelfTapeHero on Facebook">
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
+          <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.988H7.898v-2.89h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.772-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+        </svg>
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
